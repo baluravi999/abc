@@ -6,6 +6,7 @@ package com.app;
 	 private int EmpId;
 	 private String EmpName;
 	 private double EmpSal;
+	 private int EmpNum;
 	public double getEmpSal() {
 		return EmpSal;
 	}
