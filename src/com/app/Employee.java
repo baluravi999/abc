@@ -8,6 +8,7 @@ package com.app;
 	 private double EmpSal;
 	 private int EmpNum;
 	//add emp location also	
+	 private String EmpLoc;
 	public double getEmpSal() {
 		return EmpSal;
 	}
@@ -30,6 +31,12 @@ package com.app;
 		super();
 		EmpId = empId;
 		EmpName = empName;
+	}
+	public String getEmpLoc(){
+		return EmpLoc;
+	}
+	public void setEmpLoc)(String empLoc){
+		EmpLoc=empLoc;
 	}
 	@Override
 	public String toString() {
