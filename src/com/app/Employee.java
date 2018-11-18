@@ -1,12 +1,13 @@
 package com.app;
 
 
-
+ // Employee details 
 	public class Employee {
 	 private int EmpId;
 	 private String EmpName;
 	 private double EmpSal;
 	 private int EmpNum;
+	//add emp location also	
 	public double getEmpSal() {
 		return EmpSal;
 	}
